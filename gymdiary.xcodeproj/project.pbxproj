@@ -7,25 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FBB01039CC63C1EBBBD6EA5 /* Pods_gymdiary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C52337CB2DCFD2EF8ADA0BE /* Pods_gymdiary.framework */; };
 		B00F95032A77EFF600E30967 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F95022A77EFF600E30967 /* AppDelegate.swift */; };
 		B00F95052A77EFF700E30967 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F95042A77EFF700E30967 /* SceneDelegate.swift */; };
-		B00F95072A77EFF700E30967 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F95062A77EFF700E30967 /* ViewController.swift */; };
-		B00F950A2A77EFF700E30967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00F95082A77EFF700E30967 /* Main.storyboard */; };
+		B00F95072A77EFF700E30967 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F95062A77EFF700E30967 /* MainViewController.swift */; };
 		B00F950D2A77EFF700E30967 /* gymdiary.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B00F950B2A77EFF700E30967 /* gymdiary.xcdatamodeld */; };
 		B00F950F2A77EFFA00E30967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00F950E2A77EFFA00E30967 /* Assets.xcassets */; };
 		B00F95122A77EFFA00E30967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00F95102A77EFFA00E30967 /* LaunchScreen.storyboard */; };
+		B00F95342A7BF08900E30967 /* TrainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F95332A7BF08900E30967 /* TrainerViewController.swift */; };
+		B00F95362A7BF09800E30967 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F95352A7BF09800E30967 /* UserViewController.swift */; };
+		B00F953A2A7CF87E00E30967 /* ListOfClientsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F95392A7CF87E00E30967 /* ListOfClientsTableViewCell.swift */; };
+		B00F953C2A7CFBA900E30967 /* ClientsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00F953B2A7CFBA900E30967 /* ClientsModel.swift */; };
+		B0414B812A8D117600E6E97C /* NewClientsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0414B802A8D117600E6E97C /* NewClientsViewController.swift */; };
+		B0ADEB312A98D83A00B8542B /* NewClientsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ADEB302A98D83A00B8542B /* NewClientsTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4C52337CB2DCFD2EF8ADA0BE /* Pods_gymdiary.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gymdiary.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		803D74FAA1AD07784AD73BEF /* Pods-gymdiary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gymdiary.release.xcconfig"; path = "Target Support Files/Pods-gymdiary/Pods-gymdiary.release.xcconfig"; sourceTree = "<group>"; };
+		83D480A7B25CE9C3B2A9279A /* Pods-gymdiary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gymdiary.debug.xcconfig"; path = "Target Support Files/Pods-gymdiary/Pods-gymdiary.debug.xcconfig"; sourceTree = "<group>"; };
 		B00F94FF2A77EFF600E30967 /* gymdiary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gymdiary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B00F95022A77EFF600E30967 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B00F95042A77EFF700E30967 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B00F95062A77EFF700E30967 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B00F95092A77EFF700E30967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B00F95062A77EFF700E30967 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B00F950C2A77EFF700E30967 /* gymdiary.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = gymdiary.xcdatamodel; sourceTree = "<group>"; };
 		B00F950E2A77EFFA00E30967 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B00F95112A77EFFA00E30967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B00F95132A77EFFA00E30967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B00F95332A7BF08900E30967 /* TrainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerViewController.swift; sourceTree = "<group>"; };
+		B00F95352A7BF09800E30967 /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		B00F95392A7CF87E00E30967 /* ListOfClientsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfClientsTableViewCell.swift; sourceTree = "<group>"; };
+		B00F953B2A7CFBA900E30967 /* ClientsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsModel.swift; sourceTree = "<group>"; };
+		B0414B802A8D117600E6E97C /* NewClientsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewClientsViewController.swift; sourceTree = "<group>"; };
+		B0ADEB302A98D83A00B8542B /* NewClientsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewClientsTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FBB01039CC63C1EBBBD6EA5 /* Pods_gymdiary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7C10F15978C4438CFA39ED6F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83D480A7B25CE9C3B2A9279A /* Pods-gymdiary.debug.xcconfig */,
+				803D74FAA1AD07784AD73BEF /* Pods-gymdiary.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		B00F94F62A77EFF600E30967 = {
 			isa = PBXGroup;
 			children = (
 				B00F95012A77EFF600E30967 /* gymdiary */,
 				B00F95002A77EFF600E30967 /* Products */,
+				7C10F15978C4438CFA39ED6F /* Pods */,
+				EB0544F785EEFC1F839B6C4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +84,101 @@
 		B00F95012A77EFF600E30967 /* gymdiary */ = {
 			isa = PBXGroup;
 			children = (
-				B00F95022A77EFF600E30967 /* AppDelegate.swift */,
-				B00F95042A77EFF700E30967 /* SceneDelegate.swift */,
-				B00F95062A77EFF700E30967 /* ViewController.swift */,
-				B00F95082A77EFF700E30967 /* Main.storyboard */,
-				B00F950E2A77EFFA00E30967 /* Assets.xcassets */,
-				B00F95102A77EFFA00E30967 /* LaunchScreen.storyboard */,
-				B00F95132A77EFFA00E30967 /* Info.plist */,
+				B0414B822A8D118200E6E97C /* NewClients */,
+				B00F95322A7BF07400E30967 /* UserView */,
+				B00F95312A7BF06700E30967 /* TrainerView */,
+				B00F951E2A78004400E30967 /* Main */,
+				B00F951D2A77FFD900E30967 /* Resources */,
+				B00F951C2A77FFBD00E30967 /* Application */,
+				B00F951B2A77F07100E30967 /* ViewModels */,
+				B00F951A2A77F06500E30967 /* Views */,
+				B00F95192A77F05E00E30967 /* Models */,
 				B00F950B2A77EFF700E30967 /* gymdiary.xcdatamodeld */,
 			);
 			path = gymdiary;
+			sourceTree = "<group>";
+		};
+		B00F95192A77F05E00E30967 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B00F953B2A7CFBA900E30967 /* ClientsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B00F951A2A77F06500E30967 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B00F951B2A77F07100E30967 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B00F951C2A77FFBD00E30967 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B00F95022A77EFF600E30967 /* AppDelegate.swift */,
+				B00F95042A77EFF700E30967 /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B00F951D2A77FFD900E30967 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B00F950E2A77EFFA00E30967 /* Assets.xcassets */,
+				B00F95102A77EFFA00E30967 /* LaunchScreen.storyboard */,
+				B00F95132A77EFFA00E30967 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B00F951E2A78004400E30967 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				B00F95062A77EFF700E30967 /* MainViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		B00F95312A7BF06700E30967 /* TrainerView */ = {
+			isa = PBXGroup;
+			children = (
+				B00F95332A7BF08900E30967 /* TrainerViewController.swift */,
+				B00F95392A7CF87E00E30967 /* ListOfClientsTableViewCell.swift */,
+			);
+			path = TrainerView;
+			sourceTree = "<group>";
+		};
+		B00F95322A7BF07400E30967 /* UserView */ = {
+			isa = PBXGroup;
+			children = (
+				B00F95352A7BF09800E30967 /* UserViewController.swift */,
+			);
+			path = UserView;
+			sourceTree = "<group>";
+		};
+		B0414B822A8D118200E6E97C /* NewClients */ = {
+			isa = PBXGroup;
+			children = (
+				B0414B802A8D117600E6E97C /* NewClientsViewController.swift */,
+				B0ADEB302A98D83A00B8542B /* NewClientsTableViewCell.swift */,
+			);
+			path = NewClients;
+			sourceTree = "<group>";
+		};
+		EB0544F785EEFC1F839B6C4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C52337CB2DCFD2EF8ADA0BE /* Pods_gymdiary.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +188,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B00F95162A77EFFA00E30967 /* Build configuration list for PBXNativeTarget "gymdiary" */;
 			buildPhases = (
+				4E817FB62BCF3CC4AB8A5B86 /* [CP] Check Pods Manifest.lock */,
 				B00F94FB2A77EFF600E30967 /* Sources */,
 				B00F94FC2A77EFF600E30967 /* Frameworks */,
 				B00F94FD2A77EFF600E30967 /* Resources */,
+				51670B3BF29FA5614D544F8C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,35 +243,74 @@
 			files = (
 				B00F95122A77EFFA00E30967 /* LaunchScreen.storyboard in Resources */,
 				B00F950F2A77EFFA00E30967 /* Assets.xcassets in Resources */,
-				B00F950A2A77EFF700E30967 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E817FB62BCF3CC4AB8A5B86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gymdiary-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51670B3BF29FA5614D544F8C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gymdiary/Pods-gymdiary-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-gymdiary/Pods-gymdiary-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gymdiary/Pods-gymdiary-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B00F94FB2A77EFF600E30967 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B00F95072A77EFF700E30967 /* ViewController.swift in Sources */,
+				B0414B812A8D117600E6E97C /* NewClientsViewController.swift in Sources */,
+				B00F95072A77EFF700E30967 /* MainViewController.swift in Sources */,
 				B00F95032A77EFF600E30967 /* AppDelegate.swift in Sources */,
+				B00F95342A7BF08900E30967 /* TrainerViewController.swift in Sources */,
 				B00F95052A77EFF700E30967 /* SceneDelegate.swift in Sources */,
+				B00F953A2A7CF87E00E30967 /* ListOfClientsTableViewCell.swift in Sources */,
+				B00F953C2A7CFBA900E30967 /* ClientsModel.swift in Sources */,
+				B0ADEB312A98D83A00B8542B /* NewClientsTableViewCell.swift in Sources */,
 				B00F950D2A77EFF700E30967 /* gymdiary.xcdatamodeld in Sources */,
+				B00F95362A7BF09800E30967 /* UserViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B00F95082A77EFF700E30967 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B00F95092A77EFF700E30967 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B00F95102A77EFFA00E30967 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,16 +438,16 @@
 		};
 		B00F95172A77EFFA00E30967 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83D480A7B25CE9C3B2A9279A /* Pods-gymdiary.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = gymdiary/Info.plist;
+				INFOPLIST_FILE = gymdiary/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -313,16 +465,16 @@
 		};
 		B00F95182A77EFFA00E30967 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 803D74FAA1AD07784AD73BEF /* Pods-gymdiary.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = gymdiary/Info.plist;
+				INFOPLIST_FILE = gymdiary/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
